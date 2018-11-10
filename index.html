@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Java Script</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+       <button onclick="makeitbold()">B</button>
+       <button onclick="italic()">I</button>
+       <button onclick="underline()">U</button>
+       <select id= "changingfont" onchange="changingfont()">
+           <option value="Arial">Arial</option>
+           <option value="Calibri">Calibri</option>
+           <option value="Verdana">Verdana</option></select>
+        <select id= "changingtextsize" onchange="changingtextsize()">
+            <option value="10pt">10</option>
+            <option value="12pt">12</option>
+            <option value="18pt">18</option>
+            <option value="24pt">24</option></select>
+        <select id= "changecolor" onchange="changecolor()">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="black">black</option></select>
+        <select id= "textdisplay" onchange="textdisplay()">
+            <option value="right">right</option>
+            <option value="center">center</option>
+            <option value="left">left</option></select>
+        <p><textarea id="text">Java script basics</textarea></p>
+    </body>
+    <script src="JS/main.js"></script>
+</html>
